@@ -1,0 +1,16 @@
+Mag0 device ID 396825 (calibration instance 0)
+Mag1 device ID 396809 (calibration instance 1)
+[91m 
+current-based compensation: [0m
+
+param set CAL_MAG_COMP_TYP 2
+
+param set CAL_MAG0_XCOMP 30.312
+param set CAL_MAG0_YCOMP -17.984
+param set CAL_MAG0_ZCOMP -49.193
+
+param set CAL_MAG1_XCOMP 1.897
+param set CAL_MAG1_YCOMP 2.311
+param set CAL_MAG1_ZCOMP -16.664
+C:\Users\dh\Documents\QGroundControl\Logs\20260922\mag_compensation.py:272: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()

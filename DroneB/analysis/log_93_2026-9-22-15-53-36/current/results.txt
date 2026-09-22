@@ -1,0 +1,37 @@
+Mag0 device ID 396825 (calibration instance 0)
+Mag1 device ID 396809 (calibration instance 1)
+[91m 
+current-based compensation: [0m
+
+param set CAL_MAG_COMP_TYP 2
+
+param set CAL_MAG0_XCOMP 36.762
+param set CAL_MAG0_YCOMP 15.941
+param set CAL_MAG0_ZCOMP -30.834
+
+param set CAL_MAG1_XCOMP 2.282
+param set CAL_MAG1_YCOMP 5.544
+param set CAL_MAG1_ZCOMP -9.613
+C:\Users\dh\Documents\QGroundControl\Logs\20260922\mag_compensation.py:272: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Traceback (most recent call last):
+  File "c:\Users\dh\Documents\QGroundControl\Logs\20260922\run_mag_analysis.py", line 26, in <module>
+    plt.figure(number).savefig(output / f"figure_{number:02d}.png", dpi=120)
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\.venv\Lib\site-packages\matplotlib\figure.py", line 3515, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\.venv\Lib\site-packages\matplotlib\backend_bases.py", line 2289, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\.venv\Lib\site-packages\matplotlib\backend_bases.py", line 2146, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\.venv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 537, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\.venv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 486, in _print_pil
+    mpl.image.imsave(
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\.venv\Lib\site-packages\matplotlib\image.py", line 1729, in imsave
+    image.save(fname, **pil_kwargs)
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\.venv\Lib\site-packages\PIL\Image.py", line 2706, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\dh\\Documents\\QGroundControl\\Logs\\20260922\\DroneB\\analysis\\log_93_2026-9-22-15-53-36\\current\\figure_03.png'

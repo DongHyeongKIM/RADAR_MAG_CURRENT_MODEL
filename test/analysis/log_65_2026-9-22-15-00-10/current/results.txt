@@ -1,0 +1,10 @@
+could not retrieve power signal from log, zero data points
+Traceback (most recent call last):
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\run_mag_analysis.py", line 24, in <module>
+    runpy.run_path(str(root / "mag_compensation.py"), run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\dh\Documents\QGroundControl\Logs\20260922\mag_compensation.py", line 84, in <module>
+    sys.exit(1)
+SystemExit: 1
