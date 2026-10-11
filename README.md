@@ -1,4 +1,5 @@
 # RADAR_MAG_CURRENT_MODEL
+PX4 magnetometer and current mapping.
 
 드론별 PX4 ULog 비행 로그와 전류 기반 자력계 보상 분석을 모은 작업 저장소입니다. 2026-09-22 작업 폴더를 기준으로 원본 로그, 분석 코드, 수치 결과 및 그래프를 보존합니다. 일부 로그 파일명은 2026-09-21 또는 날짜 미상입니다.
 
