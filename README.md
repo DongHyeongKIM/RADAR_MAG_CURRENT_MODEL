@@ -28,6 +28,6 @@ python run_mag_analysis.py
 python compare_drone.py
 ```
 
-`--instance`는 전류/추력 신호 인스턴스입니다. 다른 기체를 비교하려면 `compare_drone.py` 상단의 `DRONE`과 `LOGS`를 수정합니다. 일괄 분석 대상은 `run_mag_analysis.py`의 두 `DroneC` 경로에서 변경합니다. 재실행하면 해당 결과 경로의 파일을 갱신합니다.
+`--instance`는 전류/추력 신호 인스턴스입니다. 다른 기체를 비교하려면 `compare_drone.py` 상단의 `DRONE`과 `LOGS`를 수정합니다. 일괄 분석 대상도 `run_mag_analysis.py` 상단의 `DRONE`과 `LOGS`에서 변경합니다. `LOGS = None`이면 해당 기체의 모든 로그를 분석하고, `LOGS = [100, 103]`처럼 지정하면 선택한 로그만 분석합니다. 재실행하면 해당 결과 경로의 파일을 갱신합니다.
 
 분석 코드는 로그를 읽어 결과를 생성하며 기체에 파라미터를 쓰지 않습니다. `mag_compensation.py`의 원저자 표기는 파일 헤더에 보존되어 있습니다.
